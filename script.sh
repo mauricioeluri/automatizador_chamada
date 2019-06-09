@@ -27,7 +27,7 @@ le_disciplina
 #Pegando data atual
 DATE=`date +%Y%m%d`
 #Definindo nome da atividade
-ATIVIDADE="TESTEchamada_$DATE"
+ATIVIDADE="chamada_$DATE"
 #Arquivos temporários
 COOKIE=$(mktemp)
 PAGINAATIVIDADE=$(mktemp)
